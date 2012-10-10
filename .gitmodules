@@ -1,0 +1,3 @@
+[submodule "T2AndroidLib"]
+	path = T2AndroidLib
+	url = https://github.com/t2health/T2AndroidLib.git
