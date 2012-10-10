@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Breathe2Relax</string>
+    <string name="breatheLabel">Breathe</string>
+    
+    <string name="buttonAbout">About</string>
+    <string name="buttonActivity">Activity</string>
+    
+    <string name="buttonBack">Back</string>
+    <string name="buttonBreathe">@string/breatheLabel</string>
+    
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonChoose">Choose</string>
+    <string name="buttonClose">Close</string>
+    
+    <string name="buttonDone">Done</string>
+    <string name="dontShow">Do not show again</string>
+    
+    <string name="buttonAnimateStart">Turn On Animate</string>
+    <string name="buttonAnimateStop">Turn Off Animate</string>
+    
+    <string name="buttonBodyScanner">Body Scanner</string>
+    
+    <string name="buttonHelp">Learn</string>
+    
+	<string name="buttonNext">Next</string>
+	
+	<string name="buttonPause">Pause</string>
+	
+	<string name="buttonRead">Read</string>
+	
+	<string name="personalize">Personalize</string>
+	
+	<string name="settings">Settings</string>
+	<string name="buttonSave">Save</string>
+	<string name="buttonSet">Set</string>
+	<string name="buttonSetBreatheLength">Set Breathe Length</string>
+	<string name="buttonSettings">Setup</string>
+	<string name="buttonShowMeHow">Show Me How</string>
+	<string name="buttonSkip">Skip</string>
+	<string name="buttonStart">Start</string>
+	
+	<string name="buttonTip">Tip</string>
+	<string name="buttonTrack">Results</string>
+	
+	<string name="buttonYoutubeOn">YouTubeOn</string>
+	<string name="buttonYoutubeOff">YouTubeOff</string>
+	<string name="buttonBrightCove">BrightCove</string>
+	
+	<string name="buttonView">View</string>
+	
+	<string name="buttonWatch">Watch</string>
+	
+	<string name="tipTitle">Wellness Tip</string>
+	
+	<string name="setInhaleLength">Set Inhale Length</string>
+	<string name="setExhaleLength">Set Exhale Length</string>
+	<string name="setInhaleLengthDefault">Set Inhale Length (sec)</string>
+	<string name="setExhaleLengthDefault">Set Exhale Length (sec)</string>
+	
+	<string name="personalizeText">Welcome to Breathe2Relax. You can personalize the settings below to make your experience more pleasing.</string>
+	
+	<string name="guideWelcome">Welcome to Breathe2Relax</string>
+	<string name="guideSteps">After that, just follow these steps:</string>
+	<string name="guideSkip">You can skip the ratings steps if you wish.</string>
+	
+	<string name="body_scanner_label_brain">Brain</string>
+	<string name="body_scanner_label_ears">Ears &amp; Hearing</string>
+	<string name="body_scanner_label_muscles">Muscles</string>
+	<string name="body_scanner_label_heart">Heart &amp; Circulatory</string>
+	<string name="body_scanner_label_fingers">Fingers &amp; Toes</string>
+	<string name="body_scanner_label_eyes">Eyes</string>
+	<string name="body_scanner_label_immune">Immune System</string>
+	<string name="body_scanner_label_lungs">Lungs &amp; Breathing</string>
+	<string name="body_scanner_label_stomach">Stomach</string>
+	<string name="body_scanner_label_skin">Skin</string>
+	
+	<string name="prerate_label">How do you feel?</string>
+	
+	<string name="rateStress">Rate Your Stress</string>
+	<string name="ratings_stressed">Stressed</string>
+    <string name="rating_relaxed">Relaxed</string>
+    <string name="ratings_pressured">Pressured</string>
+    <string name="ratings_calm">Calm</string>
+    <string name="ratings_angry">Angry</string>
+    <string name="ratings_content">Content</string>
+    <string name="ratings_distracted">Distracted</string>
+    <string name="ratings_focused">Focused</string>
+	
+	<string name="breath_duration_intake">Inhale</string>
+    <string name="breath_duration_exhale">Exhale</string>
+    <string name="breath_repetition_progress">Progress</string>
+    <string name="restart">Restart</string>
+    <string name="proceed">Proceed</string>
+    
+    <string name="readbodyeffects">ReadBodyEffects</string>
+    <string name="readbreathingeffects">ReadBreathingEffects</string>
+    <string name="readapplicationguide">ReadApplicationGuide</string>
+    <string name="readstresseffects">ReadStressEffects</string>
+    
+    <string name="main_no_items">No items</string> 
+    <string name="done_done">done</string> 
+    
+     <string name="backgroundMusic">Select Background Music</string> 
+     <string name="backgroundScenery">Select Scenery</string> 
+      
+     <string name="biologyOfStress">Biology of Stress</string>
+     <string name="diaphragmaticBreathing">Diaphragmatic Breathing</string>
+     <string name="effectsOfStressOnTheBody">Effects of Stress on the Body</string>
+     <string name="howToBreath">How to Breathe</string>
+     <string name="watchBiologyOfBreathing">Biology of Breathing</string>
+     <string name="bodysReactionToStress">Body\&apos;s Reaction to Stress</string>
+     
+     <string name="pressStartWhenReady">Press Start When Ready</string>
+     
+     <!--  Graph results -->
+	<string name="results_title">Results</string>
+	<string name="groups_tab">Categories</string>
+	<string name="scales_tab">Scales</string>
+	<string name="notes_tab">Notes</string>
+	<string name="chart_high">Hi</string>
+	<string name="chart_low">Lo</string>
+
+	<string name="x">X</string>
+	<string name="y">Y</string>
+
+	<string name="add_values">Add values to chart</string>
+	<string name="add">Add</string>
+	<string name="new_series">New series</string>
+	
+	
+    <string name="buttonReady">I\'m Ready</string>
+    <string name="buttonRetry">Retry</string>
+    
+     <string name="menu_zoom">Zoom</string>
+     <string name="menu_pan">Pan</string>
+     <string name="menu_reset">Reset</string>
+     
+	<string name="could_not_play_video">Could not play video.</string>
+	<string name="no_conenction_message">You must have an active internet connection to play this resource.</string>
+	<string name="loading">Loading...</string>
+	<string name="ok">Okay</string>	
+     
+     
+    
+	<string name="setBreathLengthPreInstructions">
+	Please read the instructions completely before we start measuring your breath
+	length. You can do this as many times as you wish. Just relax and follow the
+	instructions.
+	</string>
+	<string name="setInhaleLengthInstructions">
+	Let the air out of your lungs, pushing as much air as you can out of your lungs
+	by tightening your stomach. Then while inhaling, press and hold the button
+	down. Try to make this a slow deep breath by pushing your stomach out. Release
+	the button only when you start to exhale.
+	</string>
+	<string name="setExhaleLengthInstructions">
+	Take a deep breath, sucking as much air as you can into your lungs, pushing out
+	your stomach. Then when you begin to exhale, press and hold the button down.
+	Try to make this a slow long exhale by pushing your stomach out. Release the
+	button only when you start to inhale.
+	</string>
+	<string name="setInhaleConfirmText">
+	\u0020seconds inhale. If this inhale was comfortably long enough then press save,
+	otherwise you can retry.
+	</string>
+	<string name="setExhaleConfirmText">
+	\u0020seconds exhale. If this exhale was comfortably long enough then press save,
+	otherwise you can retry.
+	</string>
+	
+	
+	<!-- Settings section -->		
+		<string name="settings__key"></string>	
+			<string name="settings__title"></string>	
+			<string name="settings__desc"></string>	
+	<string name="settings_visual">Visual Settings</string>
+		<string name="settings_background_key">background</string>
+			<string name="settings_background_title">Background Image</string>
+			<string name="settings_background_desc">Select a background theme (%s)</string>
+		<string name="settings_metronome_key">metronome</string>	
+			<string name="settings_metronome_title">Breath Metronome</string>	
+			<string name="settings_metronome_desc">Show the breathing metronome</string>	
+		<string name="settings_visual_prompt_key">visual_prompt</string>	
+			<string name="settings_visual_prompt_title">Visual Prompts</string>	
+			<string name="settings_visual_prompt_desc">Show visual prompts</string>	
+		<string name="settings_prevent_screen_timeout_key">prevent_screen_timeout</string>	
+			<string name="settings_prevent_screen_timeout_title">Prevent Screen Timeout</string>	
+			<string name="settings_prevent_screen_timeout_desc">Prevents screen from timing out when in breathing session</string>	
+	<string name="settings_audio">Audio Settings</string>
+		<string name="settings_audio_prompt_key">audio_prompt</string>	
+		<string name="settings_breathing_instruction_key">breathing_instruction</string>	
+		<string name="settings_play_music_key">play_music</string>
+		<string name="settings_background_music_key">background_music</string>
+			<string name="settings_background_music_title">Background Music</string>
+			<string name="settings_background_music_desc">Select background music (%s)</string>
+	<string name="settings_cycle">Cycle Settings</string>
+		<string name="settings_inhale_length_key">inhale_length</string>
+			<string name="settings_inhale_length_summary">Change the inhale length (%s sec)</string>
+		<string name="settings_exhale_length_key">exhale_length</string>	
+			<string name="settings_exhale_length_summary">Change the exhale length (%s sec)</string>
+		<string name="settings_num_cycles_key">num_cycles</string>	
+			<string name="settings_num_cycles_summary">Number of breathing cycles (%s)</string>
+	<string name="settings_stress_tracking">Stress Tracking Information</string>
+		<string name="settings_track_stress_key">track_stress</string>	
+	<string name="settings_help">Help Information</string>
+		<string name="settings_guide_prompt_key">guide_prompt</string>	
+	<string name="settings_improve">Improve Breathe2Relax</string>
+		<string name="settings_rate_key">rate</string>
+		<string name="settings_feedback_key">feedback</string>
+		<string name="settings_anon_data_key">anon_data</string>
+	<string name="settings_improve">Improve Breathe2Relax</string>
+		<string name="settings_youtube_key">youtube</string>
+			<string name="settings_youtube_title">YouTube Video Fallback</string>
+			<string name="settings_youtube_desc">Use YouTube when main video provider is unavailable</string>
+	
+	<string-array name="breathe_cycles">
+		<item>8</item>
+		<item>10</item>
+		<item>12</item>
+		<item>14</item>
+		<item>16</item>
+	</string-array>
+
+	<!-- Unused by active code (but referenced in baggage) -->	
+    <string name="buttonLengthen">Lengthen</string>
+	<string name="buttonShorten">Shorten</string>
+	
+</resources>

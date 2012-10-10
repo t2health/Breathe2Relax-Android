@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/frameLayoutBodyScanner"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<include
+		layout="@layout/b2r_body_scanner_line_buttons"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="left|top">
+	</include>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:gravity="right"
+		android:layout_height="fill_parent">
+
+		<LinearLayout
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutBrain"
+			android:layout_width="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_brain"
+				android:layout_margin="4dip"
+				android:id="@+id/textViewBrain" />
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout1"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowBrain" />
+				<Button
+					android:text=""
+					android:layout_width="48dip"
+					android:id="@+id/ButtonBrain"
+					android:layout_height="48dip" />
+			</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutEyes">
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_eyes"
+				android:id="@+id/textViewEyes"></TextView>
+			<FrameLayout
+				android:id="@+id/frameLayout2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:id="@+id/imageViewButtonGlowEyes"
+					android:background="#000000" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonEyes"
+					android:text=" "
+					android:layout_height="48dip" />						
+					
+				</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:gravity="right|top"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutEars"
+			android:layout_width="wrap_content">
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_ears"
+				android:id="@+id/textViewEars"></TextView>
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout3"
+				android:layout_height="wrap_content">
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowEars" />
+				<Button
+					android:layout_width="48dip"
+					android:layout_gravity="right|top"
+					android:id="@+id/ButtonEars"
+					android:text=" "
+					android:layout_height="48dip" />						
+						
+				</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutImmune"
+			android:layout_width="fill_parent">
+
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_immune"
+				android:id="@+id/textViewImmune"></TextView>
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/frameLayout5">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowImmune" />
+				<Button
+					android:id="@+id/ButtonImmune"
+					android:text=" "
+					android:layout_width="48dip"
+					android:layout_height="48dip" />
+							
+				</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutMuscles">
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_muscles"
+				android:id="@+id/textViewMuscles"></TextView>
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout6"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowMuscles" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonMuscles"
+					android:text=" "
+					android:layout_height="48dip" />
+			</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutLungs">
+
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_lungs"
+				android:id="@+id/textViewLungs">
+			</TextView>
+
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout7"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowLungs" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonLungs"
+					android:text=" "
+					android:layout_height="48dip" />
+			</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutHeart"
+			android:layout_width="wrap_content">
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_heart"
+				android:id="@+id/textViewHeart"></TextView>
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout8"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowHeart" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonHeart"
+					android:text=" "
+					android:layout_height="48dip" />
+						
+					
+			</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutStomach">
+
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_stomach"
+				android:id="@+id/textViewStomach">
+			</TextView>
+
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout9"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowStomach" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonStomach"
+					android:text=" "
+					android:layout_height="48dip" />
+						
+					
+			</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutFingers"
+			android:layout_width="wrap_content">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_margin="4dip"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_fingers"
+				android:id="@+id/textViewFingers"></TextView>
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout10"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowFingers" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonFingers"
+					android:text=" "
+					android:layout_height="48dip" />
+			</FrameLayout>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_gravity="left"
+			android:gravity="right"
+			android:layout_height="wrap_content"
+			android:id="@+id/LinearLayoutSkin"
+			android:layout_width="fill_parent">
+
+			<TextView
+				android:layout_margin="4dip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="18sp"
+				android:text="@string/body_scanner_label_skin"
+				android:id="@+id/textViewSkin">
+			</TextView>
+
+			<FrameLayout
+				android:layout_width="wrap_content"
+				android:id="@+id/frameLayout11"
+				android:layout_height="wrap_content">
+
+				<ImageView
+					android:layout_width="48dip"
+					android:layout_height="48dip"
+					android:background="#000000"
+					android:id="@+id/imageViewButtonGlowSkin" />
+				<Button
+					android:layout_width="48dip"
+					android:id="@+id/ButtonSkin"
+					android:text=" "
+					android:layout_height="48dip" />
+			</FrameLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<include
+		layout="@layout/b2r_framed_web_view_layout"
+		android:layout_width="256dip"
+		android:layout_height="420dip"
+		android:layout_gravity="left">
+	</include>
+
+</FrameLayout>

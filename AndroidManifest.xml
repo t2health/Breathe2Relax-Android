@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.t2health.breathe2relax"
+      android:versionCode="12" android:versionName="2.4.2" >
+  
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+    	
+    	<activity android:name="B2R_BodyScanner" />
+			<!-- android:screenOrientation="portrait"  -->
+			
+    	<activity android:name="B2R_ChooseVisualSettingsActivity" />
+				
+    	<activity android:name="B2R_FirstLaunchActivity" />
+ 
+    	<activity android:name="B2R_HelpActivity" />
+    	
+    	<activity android:name="B2R_InhaleActivity"
+		 		android:configChanges="orientation|keyboardHidden" />
+				
+		<activity android:name="Main" />
+		<activity android:name="B2R_PresetExhaleLengthActivity" />
+		<activity android:name="B2R_PresetInhaleLengthActivity" />
+		<activity android:name="B2R_RateStressBeforeActivity" />
+		<activity android:name="B2R_RateStressAfterActivity"/>
+				
+		<activity android:name="B2R_ReadingActivity" />
+		<activity android:name="B2R_EndBreathingActivity" android:configChanges="orientation" />
+		
+		<activity android:name="B2R_SelectedBackgroundMusicActivity" />
+		 
+		<activity android:name="Settings" />
+		<activity android:name="B2R_SetInhaleActivity" />
+		<activity android:name="B2R_SetInhaleLengthActivity" />
+		<activity android:name="B2R_SetExhaleActivity" />
+		<activity android:name="B2R_SetExhaleLengthActivity" />
+		
+		<activity
+			android:name="VideoActivity" />
+		
+		<activity android:name="B2R_ShowMeHowActivity" android:configChanges="orientation|keyboardHidden" android:screenOrientation="sensor" >
+			<intent-filter>  
+				<action android:name="android.intent.action.VIEW"></action>  
+				<category android:name="android.intent.category.DEFAULT"></category>  
+				<category android:name="android.intent.category.BROWSABLE"></category>  
+				<!--  <data android:scheme="putyourappnamehere"></data> -->
+			</intent-filter>
+		</activity>
+		
+        <activity android:name="Splash"
+        		  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="B2R_StartBreathingActivity" android:configChanges="orientation" />
+			
+        <activity android:name="B2R_TipActivity"
+				android:configChanges="orientation|keyboardHidden"
+				android:theme="@android:style/Theme.Dialog" >
+				<intent-filter>
+	                  <action android:name="android.intent.action.VIEW" />
+	                  <category android:name="android.intent.category.DEFAULT" />
+	            </intent-filter>
+		 </activity>
+		
+		<activity android:name="B2R_TrackActivity" 
+			android:configChanges="orientation|keyboardHidden" />
+		
+		<activity android:name="B2R_WebViewActivity" />
+		
+    	<!-- Turn on password protection -->
+		<meta-data android:name="securityEnabled" android:value="true" />
+		<activity android:name="org.t2health.lib.security.UnlockActivity" />
+        <activity android:name="org.t2health.lib.security.ForgotPasswordActivity" />
+        <activity android:name="org.t2health.lib.security.ConfigureActivity" />
+        
+		<!-- Turn on analytics -->		
+        <meta-data android:name="analyticsEnabled" android:value="true" />
+		<meta-data android:name="analyticsProvider" android:value="flurry" />
+		<meta-data android:name="analyticsKey" android:value="J4RFJN3IJH2KYRM4EVHN" />
+		
+		<meta-data android:name="databaseName" android:value="breathetorelax.db" />
+		<meta-data android:name="databaseVersion" android:value="2" />
+		<meta-data android:name="databaseOpenHelper" android:value="org.t2health.breathe2relax.B2R_DatabaseHelper" />
+		
+		<!-- Turn on remote stack traces -->
+		<meta-data android:name="remoteStackTraceEnabled" android:value="true" />
+		<meta-data android:name="stackTraceURL" android:value="http://www2.tee2.org/trace/report.php" />
+		
+		
+    </application>
+    
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+</manifest>

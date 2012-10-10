@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/set_inhale_length_text_view"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical" > 		
+		<TextView 
+			android:id="@+id/textPreviousMeasureInhale"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="0.0 sec"  
+    		android:textSize="20dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:id="@+id/main_main_main_Inhale"
+    	android:layout_width="wrap_content"
+  		android:layout_height="fill_parent"
+		android:layout_weight="1.0"
+		android:padding="15dp"
+		android:gravity="center" > 	
+    
+    	<TextView 
+    		android:id="@+id/text_text_one_inhale"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textSize="18dip"
+    		android:text="@string/setInhaleLengthInstructions"
+    		/>
+     </LinearLayout>   		  	
+   
+     <LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="vertical" >
+ 	 	<TextView 
+			android:id="@+id/textCurrentMeasureInhale"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="0.0 sec"  
+    		android:textSize="20dip" />
+  
+     	<Button 
+      		android:layout_height="wrap_content" 
+      		android:id="@+id/buttonPressHereInhale" 
+      		android:layout_width="fill_parent" 
+      		android:text="PRESS AND HOLD" />   
+      </LinearLayout>
+      
+</LinearLayout>

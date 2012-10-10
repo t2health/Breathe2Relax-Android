@@ -1,0 +1,95 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearlayoutSettings_B2R"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+ <ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+  <LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" >
+		
+	<TextView
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+ 		android:text="@string/personalizeText" 
+ 		android:padding="10dp"
+ 		android:paddingTop="20dp" />
+ 	
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		
+		<Button
+        	android:id="@+id/buttonChooseVisualFirstLaunch"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="left|center_vertical"
+        	android:textSize="16sp"
+        	android:drawableRight="@drawable/more"
+        	android:text="@string/backgroundScenery" />
+
+		<Button
+        	android:id="@+id/buttonChooseMusicFirstLaunch"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="left|center_vertical"
+        	android:drawableRight="@drawable/more"
+        	android:textSize="16sp"
+        	android:text="@string/backgroundMusic" />
+			
+		<Button
+        	android:id="@+id/buttonSetInhalePreferencesFirstLaunch"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="left|center_vertical"
+        	android:drawableRight="@drawable/more"
+        	android:textSize="16sp"
+        	android:text="@string/setInhaleLengthDefault" />
+				
+		<Button
+        	android:id="@+id/buttonSetExhalePreferencesFirstLaunch"
+       	 	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="left|center_vertical"
+        	android:drawableRight="@drawable/more"
+        	android:textSize="16sp"
+        	android:text="@string/setExhaleLengthDefault" />
+
+	</LinearLayout>
+
+	<TextView
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+ 		android:text="Demonstration Video" 
+ 		android:padding="10dp"
+ 		android:paddingTop="20dp" />
+ 		
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		
+		<Button
+        	android:id="@+id/buttonFirstLaunchShowMeHowFirstLaunch"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="left|center_vertical"
+        	android:textSize="16sp"
+        	android:drawableRight="@drawable/play" 
+        	android:text="@string/buttonShowMeHow" />
+
+	</LinearLayout>
+  </LinearLayout>
+ </ScrollView>
+</LinearLayout>

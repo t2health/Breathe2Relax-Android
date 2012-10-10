@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/post_exhale_length_text_view"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+	<LinearLayout
+    	android:layout_width="wrap_content"
+  		android:layout_height="fill_parent"
+		android:layout_weight="1.0"
+		android:padding="15dp"
+		android:gravity="center" >
+	
+   		<TextView 
+    		android:id="@+id/textResultOfExhale"
+    		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content" 
+      		android:textSize="20dp"
+    		android:text="@string/setExhaleConfirmText" />
+    </LinearLayout>
+    <LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" >
+		<Button
+			android:id="@+id/buttonPressSaveExhale"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/buttonSave" />   
+		<Button
+			android:id="@+id/buttonPressRetryExhale"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/buttonRetry" />
+	</LinearLayout>
+</LinearLayout>

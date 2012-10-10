@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fadingEdge="vertical|horizontal">
+	<android.webkit.WebView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/webkitWebView"
+		android:paddingBottom="100dip">
+	</android.webkit.WebView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:scaleType="fitXY"
+		android:id="@+id/imageViewTop"
+		android:layout_gravity="center_horizontal|top"
+		android:src="@drawable/blacktopfade">
+	</ImageView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:id="@+id/imageViewBottom"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|bottom"
+		android:scaleType="fitXY"
+		android:src="@drawable/blackbottomfade">
+	</ImageView>
+</FrameLayout>

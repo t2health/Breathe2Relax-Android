@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|bottom" 
+    android:padding="10dip">
+
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+		<ImageView android:layout_gravity="center"
+			android:src="@drawable/b2rlogo"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:scaleType="fitCenter"
+			android:id="@+id/imageViewLogo" />
+	</LinearLayout>
+    <LinearLayout 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent" 
+    	android:orientation="vertical"
+    	android:layout_gravity="left"  >
+    	<ImageView 
+        	android:layout_gravity="left" 
+        	android:gravity="left" 
+        	android:src="@drawable/t2_logo_small" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="fill_parent"
+        	android:id="@+id/t2LogoMainView" />
+     </LinearLayout>
+    <LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center_horizontal|bottom"
+		android:gravity="bottom"
+		android:padding="4px">
+			<Button 
+        		android:id="@+id/buttonShowMeHow" 
+        		android:text="@string/buttonShowMeHow"
+        		android:layout_weight="1"
+        		android:layout_marginRight="2px"
+        		android:layout_width="0px" 
+        		android:layout_height="fill_parent" />
+        	<Button 
+        		android:id="@+id/buttonMenuTrack" 
+        		android:text="@string/buttonTrack" 
+        		android:layout_weight="1"
+        		android:layout_marginRight="2px"
+        		android:layout_width="0px" 
+        		android:layout_height="fill_parent"  />
+        	<Button 
+        		android:id="@+id/buttonMenuHelp" 
+        		android:text="@string/buttonHelp" 
+        		android:layout_weight="1"
+        		android:layout_marginRight="2px"
+        		android:layout_width="0px" 
+        		android:layout_height="fill_parent" />
+    		<Button 
+    			android:id="@+id/buttonMenuBreathe" 
+    			android:text="@string/buttonBreathe"
+    			android:layout_weight="1"
+    			android:textSize="20sp"
+    			android:layout_width="0px"
+    			android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

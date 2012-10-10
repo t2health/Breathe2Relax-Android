@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="red">#ff0000</color>
+	<color name="green">#00ff00</color>
+	<color name="blue">#0000ff</color>
+	<color name="chart_gradient_start">#FF356aa2</color>
+	<color name="chart_gradient_center">#FF80b6ec</color>
+	<color name="chart_gradient_end">#FF356aa2</color>
+	<color name="chart_text">#FFFFFFFF</color>
+</resources>

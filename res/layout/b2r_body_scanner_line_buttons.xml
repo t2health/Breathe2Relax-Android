@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<FrameLayout
+		android:id="@+id/frameLayoutImageLayers"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center">
+
+		<org.t2health.breathe2relax.BodyView
+			android:id="@+id/bodyview" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+		
+		<org.t2health.breathe2relax.PortViewOverlay
+			android:id="@+id/basefadingview" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+			
+		<org.t2health.breathe2relax.PortViewOverlay
+			android:id="@+id/bodyfadingview" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+			
+		<org.t2health.breathe2relax.PortViewOverlay
+			android:id="@+id/portviewoverlay" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+				
+		<FrameLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center">
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical"
+				android:fitsSystemWindows="true"
+				android:layout_gravity="center">	
+				<ImageView 
+					android:id="@+id/imageViewLaserLine" 
+					android:layout_width="fill_parent" 
+					android:layout_height="40dip"
+					android:adjustViewBounds="true" 
+					android:orientation="vertical"
+					android:layout_gravity="center"
+					android:layout_centerInParent="true"
+					android:layout_centerHorizontal="true"
+					android:scaleType="fitXY" />		
+			</RelativeLayout>
+		</FrameLayout>	
+			
+		<org.t2health.breathe2relax.MaskView
+			android:id="@+id/maskview" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" />
+
+	</FrameLayout>		
+</FrameLayout>

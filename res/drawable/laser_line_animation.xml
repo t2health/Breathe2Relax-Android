@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="laser_line_animation"
+	android:oneshot="false">
+    <item android:drawable="@drawable/ibreathe_body_scan0" android:duration="33" />
+    <item android:drawable="@drawable/ibreathe_body_scan1" android:duration="33" />
+    <item android:drawable="@drawable/ibreathe_body_scan2" android:duration="33" />
+    <item android:drawable="@drawable/ibreathe_body_scan3" android:duration="33" />
+    <item android:drawable="@drawable/ibreathe_body_scan4" android:duration="33" />
+    <item android:drawable="@drawable/ibreathe_body_scan5" android:duration="33" />
+ </animation-list>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/linearLayout4"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    <LinearLayout
+    	android:layout_height="0dip"
+    	android:layout_width="fill_parent"
+    	android:orientation="vertical"
+    	android:id="@+id/linearLayout1"
+    	android:layout_weight="1">
+        <LinearLayout
+        	android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+        	android:id="@+id/linearLayout5">
+            <TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content" 
+            	android:text="@string/breath_repetition_progress" 
+            	android:id="@+id/textViewProgress"/>
+			<ProgressBar
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+    			android:indeterminateOnly="false"
+    			android:progressDrawable="@android:drawable/progress_horizontal"
+    			android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+    			android:max="100"
+    			android:minHeight="20dip"
+    			android:maxHeight="20dip"
+    			android:layout_margin="4dip" android:id="@+id/breathCountProgressBar"/>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/breath_duration_intake" android:layout_margin="4dip" android:id="@+id/textView1"/>
+            <SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/seekBarInTarget" android:layout_margin="4dip"/>
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout3">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/breath_duration_exhale" android:layout_margin="4dip" android:id="@+id/textView2"/>
+            <SeekBar android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/seekBarOutTarget" android:layout_margin="4dip"/>
+        </LinearLayout>
+    </LinearLayout>
+	<FrameLayout
+		android:id="@+id/frameLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="3" >
+		<org.t2health.breathe2relax.BreathView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/t2healthbreathe2relaxBreathView">
+		</org.t2health.breathe2relax.BreathView>
+	</FrameLayout>
+</LinearLayout>

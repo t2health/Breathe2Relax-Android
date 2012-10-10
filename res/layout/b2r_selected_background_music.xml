@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<include android:id="@+id/headerBackgroundMusic"
+         layout="@layout/selected_background_music_head"
+         android:layout_height="wrap_content"
+		 android:layout_width="fill_parent"/>
+<!--  	 
+   <Button 
+   		android:layout_height="wrap_content" 
+   		android:layout_width="wrap_content"
+   		android:id="@+id/buttonRandomMusicID" 
+   		android:text="Random Music play random music from list below" />
+-->	
+   <include android:id="@+id/footerBackgroundMusic"
+         layout="@layout/selected_background_music_items_pull_down"
+         android:layout_height="wrap_content"
+		 android:layout_width="fill_parent"/>
+
+</LinearLayout>

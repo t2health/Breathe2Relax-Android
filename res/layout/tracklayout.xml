@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_weight="1">
+
+	<FrameLayout 
+		android:layout_width="fill_parent"
+		 android:layout_height="fill_parent"
+		 android:layout_marginBottom="12dip"
+		 android:layout_weight="1" >
+		<FrameLayout
+			android:id="@+id/chartLabels"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+			<LinearLayout 
+				android:id="@+id/chart" 
+				android:orientation="horizontal"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="1" />
+		</FrameLayout>	
+		<FrameLayout
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="top|left"
+				android:background="#00000000"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textColor="#FFFFFFFF"
+				android:text="@string/ratings_stressed" />
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|left"
+				android:textAppearance="@android:style/TextAppearance.Small"
+				android:textColor="#FFFFFFFF"
+				android:background="#00000000"
+				android:paddingBottom="40dp"
+				android:text="@string/rating_relaxed" />
+		</FrameLayout>
+		
+	</FrameLayout>
+		
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<!-- The month selector -->
+		<ImageButton
+			android:id="@+id/monthMinusButton"
+			android:layout_width="48dip"
+			android:layout_height="48dip"
+			android:src="@drawable/less"
+			/>
+			
+		<TextView
+			android:id="@+id/monthName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:layout_gravity="center"
+			android:text="Month Name"
+			android:textSize="20sp"
+			android:textColor="@color/chart_text" />
+			
+		<ImageButton
+			android:id="@+id/monthPlusButton"
+			android:layout_width="48dip"
+			android:layout_height="48dip"
+			android:src="@drawable/more"
+			/>			
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent" >
+   <TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="center_horizontal|top"
+		android:padding="2dp"
+		android:shrinkColumns="1" >
+		<TableRow>
+   			<TextView 
+   				android:id="@+id/textmh1" 
+   				android:layout_width="wrap_content" 
+   				android:layout_height="wrap_content" 
+   				android:textSize="10sp"
+   				android:text="Title:" />
+   			<TextView 
+   				android:id="@+id/textmh2" 
+   				android:layout_width="wrap_content" 
+   				android:layout_height="wrap_content" 
+   				android:textSize="16sp"
+   				android:textStyle="bold" />	
+   		</TableRow>
+   		<TableRow>
+   			<TextView 
+   				android:id="@+id/textmh3" 
+   				android:layout_width="wrap_content" 
+   				android:layout_height="wrap_content" 
+   				android:textSize="10sp"
+				android:paddingRight="3dp"
+   				android:text="Description:" />
+   			<TextView 
+   				android:id="@+id/textmh4" 
+   				android:layout_width="wrap_content" 
+   				android:layout_height="wrap_content" 
+   				android:textSize="10sp"
+   				android:textStyle="bold"
+				android:lines="3" />	
+   		</TableRow>
+   		<TableRow>
+   			<TextView 
+   				android:id="@+id/textmh5" 
+   				android:layout_width="wrap_content" 
+   				android:layout_height="wrap_content" 
+   				android:textSize="10sp"
+   				android:text="Credit:" />
+   			<TextView 
+   				android:id="@+id/textmh6" 
+   				android:layout_width="wrap_content" 
+   				android:layout_height="wrap_content" 
+   				android:textSize="10sp" />	
+   		</TableRow>
+   	</TableLayout>
+   	<TableLayout
+   		android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+		android:layout_gravity="center_horizontal"
+		android:stretchColumns="0,1,2" >
+   		<TableRow>
+   			<Button 
+   				android:id="@+id/buttonuseselectionID"
+   				android:layout_width="0px" 
+        		android:layout_weight="1"
+            	android:text="Use Selection" />
+            <Button 
+   				android:id="@+id/buttonpreviewselectionID"
+            	android:layout_width="0px" 
+        		android:layout_weight="1"
+            	android:text="Preview" />	
+           </TableRow>	
+     </TableLayout>      
+</LinearLayout>

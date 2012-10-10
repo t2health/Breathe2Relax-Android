@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearlayoutStartBreathingWidget"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal" 
+    android:padding="10dip" >
+    <LinearLayout
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:orientation="vertical"
+    	android:gravity="center_horizontal|bottom" >
+        <Button 
+        	android:text="@string/buttonStart" 
+        	android:id="@+id/buttonStartBreathingSession" 
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:gravity="center_horizontal|bottom" />
+    </LinearLayout>
+</LinearLayout>

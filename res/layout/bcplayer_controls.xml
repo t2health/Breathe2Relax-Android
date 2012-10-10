@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/img_playback_bg"
+  android:orientation="vertical"
+  android:paddingLeft="10dip"
+  android:paddingRight="10dip">
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="10dip"
+    android:paddingBottom="5dip"
+    android:orientation="horizontal">
+    <ImageButton
+      android:id="@+id/rew"
+      android:tag="rew"
+      android:src="@drawable/btn_rewind"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#00000000" />
+    <ImageButton
+      android:id="@+id/pause"
+      android:tag="pause"
+      android:src="@drawable/btn_play"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#00000000"
+      android:paddingLeft="30dip" 
+      android:paddingRight="30dip" />
+    <ImageButton
+      android:id="@+id/ffwd"
+      android:tag="ffwd"
+      android:src="@drawable/btn_fastforward"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="#00000000" />
+  </LinearLayout>
+  <ImageView
+    android:src="@drawable/img_playback_line"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000" />
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+    <TextView
+      android:id="@+id/time_current"
+      android:tag="time_current"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      android:gravity="center_horizontal"
+      android:layout_margin="4dip"
+      android:layout_gravity="center_vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="7" />
+    <SeekBar
+      android:id="@+id/mediacontroller_progress"
+      android:tag="mediacontroller_progress"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="0dip"
+      android:layout_weight="86"
+      android:layout_height="50dip"
+      android:paddingTop="15dip"
+      android:paddingBottom="15dip"
+      android:layout_gravity="center_vertical"
+      android:progressDrawable="@drawable/scrubber"
+      android:thumb="@drawable/img_scrubber_dot" />
+    <TextView
+      android:id="@+id/time"
+      android:tag="time"
+      android:textSize="14sp"
+      android:textStyle="bold"
+      android:gravity="center_horizontal"
+      android:layout_margin="4dip"
+      android:layout_gravity="center_vertical"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="7"/>
+  </LinearLayout>
+</LinearLayout>

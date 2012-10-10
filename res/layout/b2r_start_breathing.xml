@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+ 
+	<ImageView 
+		android:id="@+id/backgroundStartBreathing"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent" 
+		android:adjustViewBounds="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:scaleType="center" />
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal|top"
+		android:padding="10dip">
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:gravity="center_horizontal">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="24sp"
+				android:gravity="center_horizontal|top"
+				
+				android:paddingLeft="4px"
+				android:paddingBottom="4px"
+				android:shadowDx="1"
+				android:shadowDy="1"
+				android:shadowRadius="1"
+				android:textColor="#ffffffff"
+				android:shadowColor="#000000"
+				
+				android:text="@string/pressStartWhenReady" />
+		</LinearLayout>
+    
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:layout_weight="1.0"
+			android:gravity="center_horizontal|bottom">
+			<Button
+				android:text="@string/buttonStart"
+				android:id="@+id/buttonStartBreathingSession"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+		 
+</FrameLayout>

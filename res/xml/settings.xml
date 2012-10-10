@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<PreferenceCategory
+		android:title="@string/settings_visual">
+		<Preference
+			android:key="@string/settings_background_key"
+			android:title="@string/settings_background_title"
+			android:summary="@string/settings_background_desc" />
+		<CheckBoxPreference
+			android:key="@string/settings_metronome_key"
+			android:title="@string/settings_metronome_title"
+			android:summary="@string/settings_metronome_desc"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="@string/settings_visual_prompt_key"
+			android:title="Visual Prompts"
+			android:summary="Show visual prompts"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="@string/settings_prevent_screen_timeout_key"
+			android:title="Prevent Screen Timeout"
+			android:summary="Prevents screen from timing out when in breathing session"
+			android:defaultValue="false" />
+		
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="@string/settings_audio">
+		<CheckBoxPreference
+			android:key="@string/settings_audio_prompt_key"
+			android:title="Audio Prompts"
+			android:summary="Play audio prompts"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="@string/settings_breathing_instruction_key"
+			android:title="Instructions"
+			android:summary="Include breathing instructions"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="@string/settings_play_music_key"
+			android:title="Play Music"
+			android:summary="Listen to relaxing background music"
+			android:defaultValue="true" />
+		<Preference
+			android:key="@string/settings_background_music_key"
+			android:title="@string/settings_background_music_title"
+			android:summary="@string/settings_background_music_desc" /> -->
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/settings_cycle">
+		<Preference
+			android:key="@string/settings_inhale_length_key"
+			android:title="Inhale Length"
+			android:summary="@string/settings_inhale_length_summary"
+			android:defaultValue="7" />
+		<Preference
+			android:key="@string/settings_exhale_length_key"
+			android:title="Exhale Length"
+			android:summary="@string/settings_exhale_length_summary"
+			android:defaultValue="7" />
+		<ListPreference
+			android:key="@string/settings_num_cycles_key"
+			android:title="Number of Cycles"
+			android:summary="settings_num_cycles_summary"
+			android:entries="@array/breathe_cycles"
+			android:entryValues="@array/breathe_cycles"
+			android:defaultValue="16" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="@string/settings_stress_tracking">
+		<CheckBoxPreference
+			android:key="@string/settings_track_stress_key"
+			android:title="Track Stress"
+			android:summary="Track your stress before and after"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="@string/settings_help">
+		<CheckBoxPreference
+			android:key="@string/settings_guide_prompt_key"
+			android:title="Guide Prompts"
+			android:summary="Reset all the guide popups to appear"
+			android:defaultValue="false" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="@string/settings_improve">
+<!-- 
+		<Preference
+			android:key="@string/settings_rate_key"
+			android:title="Rate Breathe2Relax"
+			android:summary="Rate this application in Android Media" />
+-->
+		<Preference
+			android:key="@string/settings_feedback_key"
+			android:title="Provide Feedback"
+			android:summary="Register feedback for this application" />
+		<CheckBoxPreference
+			android:key="@string/settings_anon_data_key"
+			android:title="Anonymous Data"
+			android:summary="Send completely anonymous usage data"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+<!--	
+	<PreferenceCategory
+		android:title="Video Options">
+		<CheckBoxPreference
+			android:key="@string/settings_youtube_key"
+			android:title="@string/settings_youtube_title"
+			android:summary="@string/settings_youtube_desc"
+			android:defaultValue="false" />
+	</PreferenceCategory>
+-->
+</PreferenceScreen>

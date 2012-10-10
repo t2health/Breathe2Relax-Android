@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_weight="1.0" >
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:orientation="vertical">
+			<Button
+				android:id="@+id/buttonHowToBreath"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:text="@string/buttonWatch" />
+			<TextView
+				android:id="@+id/textHowToBreath"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/howToBreath" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:orientation="vertical">
+			<Button
+				android:id="@+id/buttonWatchBiologyOfBreathing"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:text="@string/buttonWatch" />
+			<TextView
+				android:id="@+id/textWatchBiologyOfBreathing"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="@string/watchBiologyOfBreathing" />
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0"
+			android:gravity="center"
+			android:orientation="vertical">
+			<Button
+				android:id="@+id/buttonBodysReactionToStress"
+				android:layout_width="100dip"
+				android:layout_height="wrap_content"
+				android:text="@string/buttonWatch" />
+			<TextView
+				android:id="@+id/textBodysReactionToStress"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="@string/bodysReactionToStress" />
+		</LinearLayout>
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="fill_parent"
+  		android:layout_height="wrap_content" >
+		<Button
+			android:id="@+id/buttonWatchReadResults"
+			android:layout_weight="1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/buttonRead" />
+		<Button
+			android:id="@+id/buttonWatchWatchResults"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:enabled="false"
+			android:text="@string/buttonWatch" />
+   </LinearLayout>
+   
+</LinearLayout>  

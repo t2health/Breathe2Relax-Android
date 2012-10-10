@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center" >
+	<!-- android:background="@drawable/b2r_custom_corners" -->
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="300dp" 
+  		android:minHeight="380dp"
+		android:gravity="top"
+		android:layout_weight="1.0" >
+		<WebView 
+			android:layout_width="fill_parent"
+			android:layout_height="380dip" 
+			android:id="@+id/webkitInformationWebView" />
+		<!-- <ImageView 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:scaleType="fitXY"
+			android:layout_gravity="center_horizontal|top" 
+			android:src="@drawable/blacktopfade" />
+		<ImageView 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:scaleType="fitXY"
+			android:layout_gravity="center_horizontal|bottom" 
+			android:src="@drawable/blackbottomfade" /> -->
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1.0">
+			<CheckBox
+				android:id="@+id/buttoninformationnotagain" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/dontShow" />
+		</LinearLayout>
+		
+		<Button 
+			android:id="@+id/buttoninformationclose" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Close" />
+	</LinearLayout>
+</LinearLayout>
