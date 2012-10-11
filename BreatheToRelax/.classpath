@@ -2,10 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="lib" path="libs/bc-android-mediaapi.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/bc-android-player.jar"/>
-	<classpathentry kind="lib" path="libs/FlurryAgent.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/T2AndroidLib"/>
+	<classpathentry exported="true" kind="lib" path="libs/FlurryAgent.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/T2AndroidLib"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

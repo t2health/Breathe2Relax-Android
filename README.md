@@ -27,7 +27,7 @@ and then send a "pull request" to notify the team of updates that are ready to b
 
 Detailed instructions can be found at [BSPAN Patching](https://gist.github.com/1507418)
 
-Getting Started with T2 Mood Tracker
+Getting Started with Breathe2Relax
 ==============================================
 Clone the repo on your computer
 
@@ -47,4 +47,4 @@ License
 ==============================================
 Copyright 2011 The National Center for Telehealth and Technology
 
-T2 Mood Tracker is Licensed under the NASA Open Source License: [https://github.com/t2health/Breathe2Relax-Android/blob/master/NASA-LICENSE.txt](https://github.com/t2health/Breathe2Relax-Android/blob/master/NASA-LICENSE.txt)
+Breathe2Relax is Licensed under the NASA Open Source License: [https://github.com/t2health/Breathe2Relax-Android/blob/master/NASA-LICENSE.txt](https://github.com/t2health/Breathe2Relax-Android/blob/master/NASA-LICENSE.txt)
